@@ -2,7 +2,9 @@
 body {
     margin:                 0;
     font-family:            Helvetica, sans-serif;
-    background-color:       rgb(255, 255, 255);
+
+    /* background-color:       rgb(255, 255, 255); */
+    background-color:       #33499C;
     color:                  white;
     display:                flex;
     justify-content:        center;
@@ -20,7 +22,7 @@ body {
 .normal-products {
     display:            flex;
     flex-direction:     column;
-    width:              30%;
+    width:              25%;
 }
 
 .normal-products .product {
@@ -38,15 +40,15 @@ body {
     bottom:         0;
     left:           0;
     width:          100%;
-    height:         100%;
-    background:     linear-gradient(to top, rgba(0, 0, 0, 0.452), transparent);
+    height:         95%;
+    background:     linear-gradient(to top, rgba(0, 0, 0, 0.616), transparent);
     z-index:        1;
 }
 
 .right-section {
     display:            flex;
     flex-direction:     column;
-    width:              70%;
+    width:              75%;
 }
 
 .video-carousel {
@@ -102,17 +104,19 @@ body {
     flex-direction:     column;
     align-items:        flex-end;
 
+    /* font-weight:        300; */
     /* Asegura que los elementos hijos estén alineados a la derecha */
 }
 
 .product-description {
-    font-size:      1.875rem;
+    font-size:      3.1vmin;
+    font-weight:    300;
 
     /* 30pt */
 }
 
 .product-price {
-    font-size:          5rem;
+    font-size:          1rem;
 
     /* 80pt */
     display:            flex;
@@ -125,23 +129,24 @@ body {
 }
 
 .product-price .price {
-    font-size:      5rem;
+    font-size:      10vmin;
+    color:          #FFAE3D;
 
     /* 80pt */
 }
 
 .product-price sup {
-    font-size:      2.5rem;
+    font-size:      4vmin;
 
     /* 40pt */
     line-height:    1;
 }
 
 .product-price .currency {
-    font-size:          2.5rem;
+    font-size:          4vmin;
 
     /* Tamaño más pequeño para el signo de pesos */
-    margin-right:       0.2rem;
+    margin-right:       0rem;
 
     /* Margen derecho para espaciar el signo del número */
     display:            flex;
@@ -152,4 +157,10 @@ body {
 
 .hidden {
     opacity:    0;
+}
+
+@media screen and (max-width: 768px) {
+    .normal-products {
+        min-width:      150px;
+    }
 }
