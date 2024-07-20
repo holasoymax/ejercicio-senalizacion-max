@@ -1,0 +1,155 @@
+
+body {
+    margin:                 0;
+    font-family:            Helvetica, sans-serif;
+    background-color:       rgb(255, 255, 255);
+    color:                  white;
+    display:                flex;
+    justify-content:        center;
+    align-items:            center;
+    height:                 100vh;
+    overflow:               hidden;
+}
+
+.container {
+    display:    flex;
+    width:      100%;
+    height:     100%;
+}
+
+.normal-products {
+    display:            flex;
+    flex-direction:     column;
+    width:              30%;
+}
+
+.normal-products .product {
+    background-size:        cover;
+    background-position:    center;
+    flex:                   1;
+    display:                flex;
+    align-items:            flex-end;
+    justify-content:        flex-end;
+    position:               relative;
+}
+
+.product-gradient {
+    position:       absolute;
+    bottom:         0;
+    left:           0;
+    width:          100%;
+    height:         100%;
+    background:     linear-gradient(to top, rgba(0, 0, 0, 0.452), transparent);
+    z-index:        1;
+}
+
+.right-section {
+    display:            flex;
+    flex-direction:     column;
+    width:              70%;
+}
+
+.video-carousel {
+    flex:                   1;
+    background-color:       #ffffff;
+    display:                flex;
+    align-items:            center;
+    justify-content:        center;
+    position:               relative;
+}
+
+.video-carousel video {
+    width:          100%;
+    height:         100%;
+    object-fit:     cover;
+}
+
+.bottom-section {
+    display:    flex;
+    height:     20%;
+}
+
+.image-carousel {
+    flex:               1 1 40%;
+    display:            flex;
+    align-items:        center;
+    justify-content:    center;
+    position:           relative;
+}
+
+.image-carousel img {
+    width:          100%;
+    height:         100%;
+    object-fit:     cover;
+}
+
+.special {
+    flex:                   2 1 60%;
+    background-size:        cover;
+    background-position:    center;
+    display:                flex;
+    align-items:            flex-end;
+    justify-content:        flex-end;
+    position:               relative;
+}
+
+.product-info {
+    position:           relative;
+    z-index:            2;
+    margin:             10px;
+    text-align:         right;
+    display:            flex;
+    flex-direction:     column;
+    align-items:        flex-end;
+
+    /* Asegura que los elementos hijos estén alineados a la derecha */
+}
+
+.product-description {
+    font-size:      1.875rem;
+
+    /* 30pt */
+}
+
+.product-price {
+    font-size:          5rem;
+
+    /* 80pt */
+    display:            flex;
+    align-items:        baseline;
+
+    /* Alinea los elementos hijos verticalmente al centro */
+    justify-content:    flex-end;
+
+    /* Asegura que el precio esté alineado a la derecha */
+}
+
+.product-price .price {
+    font-size:      5rem;
+
+    /* 80pt */
+}
+
+.product-price sup {
+    font-size:      2.5rem;
+
+    /* 40pt */
+    line-height:    1;
+}
+
+.product-price .currency {
+    font-size:          2.5rem;
+
+    /* Tamaño más pequeño para el signo de pesos */
+    margin-right:       0.2rem;
+
+    /* Margen derecho para espaciar el signo del número */
+    display:            flex;
+    align-items:        center;
+
+    /* Alinea verticalmente al centro */
+}
+
+.hidden {
+    opacity:    0;
+}

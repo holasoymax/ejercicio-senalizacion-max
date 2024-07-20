@@ -1,0 +1,71 @@
+{
+    "products": {
+        "especiales": [
+            {
+                "product": "Milanesa pechuga - kg",
+                "price": 197.15
+            },
+            {
+                "product": "Costilla cerdo - kg",
+                "price": 132.00
+            }
+        ],
+        "normales": [
+            {
+                "product": "Pechuga con hueso - kg",
+                "price": 129.00
+            },
+            {
+                "product": "Molida Especial 80-20",
+                "price": 130.50
+            },
+            {
+                "product": "Sirloin de res - kg",
+                "price": 236.00
+            },
+            {
+                "product": "Milanesa bola - kg",
+                "price": 229.50
+            },
+            {
+                "product": "Milanesa cerdo - kg",
+                "price": 122.00
+            },
+            {
+                "product": "Rib eye -kg",
+                "price": 339.00
+            },
+            {
+                "product": "New york -kg",
+                "price": 309.50
+            },
+            {
+                "product": "Hamburguesa reb eye -pza",
+                "price": 99.00
+            },
+            {
+                "product": "Panza de res -kg",
+                "price": 89.00
+            },
+            {
+                "product": "Retazo con hueso -kg",
+                "price": 122.00
+            },
+            {
+                "product": "Arrachera marinada SK -kg",
+                "price": 217.00
+            }
+        ]
+    },
+    "videos": {
+        "video": [
+            "vid1.mp4",
+            "vid2.mp4"
+        ]
+    },
+    "images": [
+        "img1.jpg",
+        "img2.jpg",
+        "img3.jpg"
+    ]
+}

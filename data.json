@@ -1,0 +1,179 @@
+{
+  "config": {
+    "normal_product_duration": 5000,
+    "special_product_duration": 10000,
+    "image_carousel_duration": 10000
+  },
+  "products": {
+    "normales": [
+      {
+        "product": "Pechuga con hueso - kg",
+        "price": 129.0,
+        "category": "carnes",
+        "image": "carnes/pechuga_hueso.jpg"
+      },
+      {
+        "product": "Molida Especial 80-20",
+        "price": 130.5,
+        "category": "carnes",
+        "image": "carnes/molida_especial.jpg"
+      },
+      {
+        "product": "Sirloin de res - kg",
+        "price": 236.0,
+        "category": "carnes",
+        "image": "carnes/sirloin_res.jpg"
+      },
+      {
+        "product": "Milanesa bola - kg",
+        "price": 229.5,
+        "category": "carnes",
+        "image": "carnes/milanesa_bola.jpg"
+      },
+      {
+        "product": "Milanesa cerdo - kg",
+        "price": 122.0,
+        "category": "carnes",
+        "image": "carnes/milanesa_cerdo.jpg"
+      },
+      {
+        "product": "Camarón - kg",
+        "price": 200.0,
+        "category": "mariscos",
+        "image": "mariscos/camaron.jpg"
+      },
+      {
+        "product": "Pulpo - kg",
+        "price": 250.0,
+        "category": "mariscos",
+        "image": "mariscos/pulpo.jpg"
+      },
+      {
+        "product": "Salmón - kg",
+        "price": 300.0,
+        "category": "mariscos",
+        "image": "mariscos/salmon.jpg"
+      },
+      {
+        "product": "Atún - kg",
+        "price": 280.0,
+        "category": "mariscos",
+        "image": "mariscos/atun.jpg"
+      },
+      {
+        "product": "Tilapia - kg",
+        "price": 120.0,
+        "category": "mariscos",
+        "image": "mariscos/tilapia.jpg"
+      },
+      {
+        "product": "Manzana - kg",
+        "price": 30.0,
+        "category": "frutas_y_verduras",
+        "image": "frutas_y_verduras/manzana.jpg"
+      },
+      {
+        "product": "Plátano - kg",
+        "price": 20.0,
+        "category": "frutas_y_verduras",
+        "image": "frutas_y_verduras/platano.jpg"
+      },
+      {
+        "product": "Tomate - kg",
+        "price": 25.0,
+        "category": "frutas_y_verduras",
+        "image": "frutas_y_verduras/tomate.jpg"
+      },
+      {
+        "product": "Zanahoria - kg",
+        "price": 18.0,
+        "category": "frutas_y_verduras",
+        "image": "frutas_y_verduras/zanahoria.jpg"
+      },
+      {
+        "product": "Lechuga - kg",
+        "price": 15.0,
+        "category": "frutas_y_verduras",
+        "image": "frutas_y_verduras/lechuga.jpg"
+      },
+      {
+        "product": "Leche - L",
+        "price": 20.0,
+        "category": "lacteos",
+        "image": "lacteos/leche.jpg"
+      },
+      {
+        "product": "Yogurt - kg",
+        "price": 45.0,
+        "category": "lacteos",
+        "image": "lacteos/yogurt.jpg"
+      },
+      {
+        "product": "Mantequilla - kg",
+        "price": 120.0,
+        "category": "lacteos",
+        "image": "lacteos/mantequilla.jpg"
+      },
+      {
+        "product": "Crema - kg",
+        "price": 60.0,
+        "category": "lacteos",
+        "image": "lacteos/crema.jpg"
+      },
+      {
+        "product": "Queso cottage - kg",
+        "price": 80.0,
+        "category": "lacteos",
+        "image": "lacteos/queso_cottage.jpg"
+      },
+      {
+        "product": "Queso Cheddar - kg",
+        "price": 150.0,
+        "category": "quesos",
+        "image": "quesos/queso_cheddar.jpg"
+      },
+      {
+        "product": "Queso Mozzarella - kg",
+        "price": 140.0,
+        "category": "quesos",
+        "image": "quesos/queso_mozzarella.jpg"
+      },
+      {
+        "product": "Queso Parmesano - kg",
+        "price": 200.0,
+        "category": "quesos",
+        "image": "quesos/queso_parmesano.jpg"
+      },
+      {
+        "product": "Queso Brie - kg",
+        "price": 250.0,
+        "category": "quesos",
+        "image": "quesos/queso_brie.jpg"
+      },
+      {
+        "product": "Queso Azul - kg",
+        "price": 300.0,
+        "category": "quesos",
+        "image": "quesos/queso_azul.jpg"
+      }
+    ]
+  },
+  "especiales": [
+    {
+      "product": "Milanesa pechuga - kg",
+      "price": 197.15,
+      "category": "carnes",
+      "image": "carnes/milanesa_pechuga.jpg"
+    },
+    {
+      "product": "Costilla cerdo - kg",
+      "price": 132.0,
+      "category": "carnes",
+      "image": "carnes/costilla_cerdo.jpg"
+    }
+  ],
+  "videos": {
+    "video": ["vid1.mp4", "vid2.mp4"]
+  },
+  "images": ["imagenes/img3.jpg", "imagenes/img2.jpg", "imagenes/img1.jpg"]
+}
