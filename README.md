@@ -1,5 +1,7 @@
 # Visualización de Productos
 
+<img src="assets/9119ba2da3ba6675889fc08e5a85934f162c80ad.gif" title="" alt="" data-align="center">
+
 Este proyecto es un reproductor de productos dinámico que muestra un carrusel de videos, imágenes y productos con transiciones animadas.
 
 ## Características
@@ -26,7 +28,7 @@ git clone https://github.com/holasoymax/ejercicio-senalizacion-max.git
 
 ## Configuración del JSON
 
-El archivo data.json contiene la configuración y los datos de los productos. A continuación se describe su estructura:
+El archivo data.json contiene la configuración y los datos de los productos.
 
 ```ag-0-1i37lvd10ag-1-1i37lvd10json
 {
