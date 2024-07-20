@@ -4,6 +4,10 @@
 
 Este proyecto es un reproductor de productos dinámico que muestra un carrusel de videos, imágenes y productos con transiciones animadas.
 
+## Link
+
+[https://ejercicio-senalizacion-max.vercel.app/](https://ejercicio-senalizacion-max.vercel.app/)
+
 ## Características
 
 - Lectura de datos desde un archivo JSON.
